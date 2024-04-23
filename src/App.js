@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import  './App.css';
-import Image from './images/giphy.gif'
 
 const HeartDiseasePrediction = () => {
   const [formData, setFormData] = useState({
@@ -90,7 +89,7 @@ const HeartDiseasePrediction = () => {
               <tr><td><label htmlFor="thal">Defect type:</label></td>
               <td><input type="number" name="thal" id="thal" value={formData.thal} onChange={handleChange} required /></td></tr>
               
-              <button className='submitBtn' type="submit" disabled={isLoading} style={{width:'163%', height:'5vh'} }>
+              <button className='submitBtn' type="submit" disabled={isLoading}>
                 {isLoading ? 'Predicting...' : 'Predict'}
               </button>
             </table>

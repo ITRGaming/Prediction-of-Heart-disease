@@ -22,13 +22,20 @@
   align-items: end;
   flex-direction: column;
  /* background-image: url('./images/heart.webp'); */
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 .submitBtn{
   background: #E1726A;
   border: 0;
   width: 157%;
+  height: 5vh;
+}
+
+.backBtn{
+  background: #F3FCFD;
+  border: 0;
+  border-radius: 8px;
   height: 5vh;
 }
 
@@ -43,4 +50,26 @@ input:focus, select:focus{
 
 input:hover, select:hover{
   background-color: #88AAD2;
+}
+
+.result{
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #1B365A;
+  background: #E7CDC1;
+  padding: 2%;
+  border-radius: 25%;
+  width: 23rem;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  left: 37dvw;
+}
+
+.clickAgain{
+  display: flex;
+  align-items: end;
+  flex-direction: column;
 }

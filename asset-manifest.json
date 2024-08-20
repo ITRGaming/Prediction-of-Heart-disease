@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Prediction-of-Heart-disease/static/css/main.cf88ec6f.css",
+    "main.js": "/Prediction-of-Heart-disease/static/js/main.43c5107f.js",
+    "static/js/453.d46ca1c0.chunk.js": "/Prediction-of-Heart-disease/static/js/453.d46ca1c0.chunk.js",
+    "static/media/noDisease.gif": "/Prediction-of-Heart-disease/static/media/noDisease.826e194f9e6f0dd7c0c0.gif",
+    "static/media/Disease.gif": "/Prediction-of-Heart-disease/static/media/Disease.a922a4c9a6460819f320.gif",
+    "static/media/heart.jpg": "/Prediction-of-Heart-disease/static/media/heart.59c01f6761165e14302e.jpg",
+    "index.html": "/Prediction-of-Heart-disease/index.html",
+    "main.cf88ec6f.css.map": "/Prediction-of-Heart-disease/static/css/main.cf88ec6f.css.map",
+    "main.43c5107f.js.map": "/Prediction-of-Heart-disease/static/js/main.43c5107f.js.map",
+    "453.d46ca1c0.chunk.js.map": "/Prediction-of-Heart-disease/static/js/453.d46ca1c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf88ec6f.css",
+    "static/js/main.43c5107f.js"
+  ]
+}
